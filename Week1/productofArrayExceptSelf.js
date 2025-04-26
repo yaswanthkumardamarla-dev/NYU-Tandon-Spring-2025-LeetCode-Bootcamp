@@ -2,6 +2,8 @@
  * @param {number[]} nums
  * @return {number[]}
  */
+//Time complexity: O(n)
+//Space complexity: O(1)
 var productExceptSelf = function(nums) {
     let product = 1;
     let zeroCount = 0;
